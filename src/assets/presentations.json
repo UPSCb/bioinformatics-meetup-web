@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to DuckDB",
+      "presenter": "Alice Johnson",
+      "date": "2025-04-10",
+      "time": "14:00",
+      "location": "Room 101, Bioinformatics Building",
+      "description": "A practical introduction to DuckDB, covering use cases for bioinformatics data processing.",
+      "slidesUrl": "https://example.com/duckdb-slides.pdf",
+      "recordingUrl": "https://example.com/duckdb-slides.mp4",
+      "tags": ["database", "bioinformatics", "SQL"]
+    },
+    {
+      "id": 2,
+      "title": "Genome Graph Storage with Rust",
+      "presenter": "Bob Smith",
+      "date": "2025-04-24",
+      "time": "16:00",
+      "location": "Room 203, Computer Science Building",
+      "description": "An overview of genome graph storage solutions and their implementation in Rust.",
+      "slidesUrl": "https://example.com/genome-graph-slides.pdf",
+      "recordingUrl": "https://example.com/genome-graph-slides.mp4",
+      "tags": ["genomics", "Rust", "graph databases"]
+    },
+    {
+      "id": 3,
+      "title": "BLAST Workflows with FastAPI",
+      "presenter": "Charlie Lee",
+      "date": "2025-05-08",
+      "time": "15:30",
+      "location": "Online (Zoom)",
+      "description": "A demonstration of integrating BLAST workflows into a FastAPI-based web service.",
+      "slidesUrl": "https://example.com/blast-fastapi-slides.pdf",
+      "recordingUrl": "https://example.com/blast-fastapi-slides.mp4",
+      "tags": ["BLAST", "FastAPI", "bioinformatics"]
+    }
+  ]
