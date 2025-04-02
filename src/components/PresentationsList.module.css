@@ -18,11 +18,13 @@
   li {
     display: grid;
     border: 1px solid var(--color);
+    border-radius: var(--radius);
+    box-shadow: var(--radius) var(--radius) darkslategray;
     padding: 1em;
   }
 
   li:hover {
-    border: 1px solid blue;
+    border: 1px solid darkslategray;
   }
 
   .presentation {
@@ -32,6 +34,6 @@
   }
 
   .presentation:hover {
-    border: 1px solid blue;
+    border: 1px solid lightslategray;
   }
 }

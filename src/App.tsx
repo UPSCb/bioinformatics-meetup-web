@@ -54,6 +54,10 @@ const App = () => {
           <h2>About</h2>
           <p>Here we write something about the meetup</p>
         </div>
+        <div id="About">
+          <h2>About</h2>
+          <p>Here we write something about the meetup</p>
+        </div>
 
         <div id="Schedule">
           <h2>Schedule</h2>
