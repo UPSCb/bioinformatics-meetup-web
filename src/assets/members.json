@@ -25,10 +25,10 @@
   },
     {
     "id": 4,
-    "firstName": “Ashish”,
-    "lastName": “Sharma”,
-    "initials": “AS”,
-    "description": “Postdoctoral Researcher”,
-    "interests": ["Python","R","Transcriptomics", “Molecular Docking Simulation”, "Comparative Genomics"]
+    "firstName": "Ashish",
+    "lastName": "Sharma",
+    "initials": "AS",
+    "description": "Postdoctoral Researcher",
+    "interests": ["Python","R","Transcriptomics", "Molecular Docking Simulation", "Comparative Genomics"]
   }
 ]
