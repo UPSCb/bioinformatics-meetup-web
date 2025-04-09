@@ -22,5 +22,13 @@
     "initials": "EP",
     "description": "Staff scientist (UPSC bioinformatics facility)",
     "interests": ["Python","R","transcriptomics", "metabarcoding", "comparative genomics", "snakemake", "nextflow"]
+  },
+    {
+    "id": 4,
+    "firstName": “Ashish”,
+    "lastName": “Sharma”,
+    "initials": “AS”,
+    "description": “Postdoctoral Researcher”,
+    "interests": ["Python","R","Transcriptomics", “Molecular Docking Simulation”, "Comparative Genomics"]
   }
 ]
