@@ -1,8 +1,5 @@
-// import { useState } from "react";
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/vite.svg";
 import "./App.css";
-
+import MembersList from "./components/MembersList";
 import PresentationsList from "./components/PresentationsList";
 
 const navItems = ["About", "Schedule", "Members", "Talks"];
@@ -34,8 +31,7 @@ const App = () => {
         </div>
 
         <div id="Members">
-          <h2>Members</h2>
-          Component for the list of members
+          <MembersList />
         </div>
       </main>
       <footer>Here is my foot</footer>
