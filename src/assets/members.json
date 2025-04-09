@@ -14,5 +14,13 @@
     "initials": "LM",
     "description": "Research Engineer (SLU)",
     "interests": ["quantitative genetics","R","statistics"]
+  },
+  {
+    "id": 3,
+    "firstName": "Edoardo",
+    "lastName": "Piombo",
+    "initials": "EP",
+    "description": "Staff scientist (UPSC bioinformatics facility)",
+    "interests": ["Python","R","transcriptomics", "metabarcoding", "comparative genomics", "snakemake", "nextflow"]
   }
 ]
