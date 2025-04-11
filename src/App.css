@@ -25,7 +25,8 @@ nav {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  background-color: var(--background);
+  background-color: var(--color);
+  color: var(--background);
   padding: 1rem;
   grid-area: nav
 }

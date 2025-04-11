@@ -7,6 +7,7 @@ interface Presentation {
   presenter: string;
   date: string;
   time: string;
+  dateTime: string;
   location: string;
   description: string;
   slidesUrl: string;
@@ -16,19 +17,35 @@ interface Presentation {
 const presentations: Presentation[] = presentationsJson;
 
 const PresentationsList = () => {
+  const date = new Date().toUTCString();
+
   return (
     <div className={styles.presentationsContainer}>
+      <h1>Future presentations</h1>
       <ul>
-        {presentations.map((value, index) => (
-          <li key={index}>
-            <h2>{value.title}</h2>
-            <h4>{value.presenter}</h4>
-            <span>
-              {value.date} {value.time}
-            </span>
-            <a href={`#presentation-${value.id}`}>See more</a>
-          </li>
-        ))}
+        {presentations
+          .filter((value) => value.dateTime >= date)
+          .map((value, index) => (
+            <li key={index}>
+              <h2>{value.title}</h2>
+              <h4>{value.presenter}</h4>
+              <span>{value.dateTime}</span>
+              <a href={`#presentation-${value.id}`}>See more</a>
+            </li>
+          ))}
+      </ul>
+      <h1>{"Past presentations"}</h1>
+      <ul>
+        {presentations
+          .filter((value) => value.dateTime < date)
+          .map((value, index) => (
+            <li key={index}>
+              <h2>{value.title}</h2>
+              <h4>{value.presenter}</h4>
+              <span>{value.dateTime}</span>
+              <a href={`#presentation-${value.id}`}>See more</a>
+            </li>
+          ))}
       </ul>
     </div>
   );
