@@ -38,5 +38,13 @@
     "initials": "TK",
     "description": "Staff scientist (UPSCb)",
     "interests": ["R", "single-cell analysis", "transcriptomics", "epigenomics", "nextflow", "volume image analysis"]
+  },
+  {
+    "id": 6,
+    "firstName": "Nicolas",
+    "lastName": "Delhomme",
+    "initials": "ND",
+    "description": "Staff scientist (UPSCb)",
+    "interests": ["R", "bash", "expression profiling", "systems biology", "transcriptomics", "epigenomics", "nextflow", "SLURM", "system administration", "docker", "singularity", "container orchestration"]
   }
 ]
