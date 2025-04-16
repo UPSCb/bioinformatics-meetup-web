@@ -28,7 +28,7 @@ const MembersList = () => {
       <h2>Members list</h2>
       <ul>
         {members
-          .filter(() => true)
+          .filter((value) => value.interests.some((interest) => interest.toLowerCase().includes(inputText.toLowerCase())))
           .map((value, index) => (
             <li key={index}>
               <h3>
